@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "wifihotspot",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "price": {
+      "default": "",
+      "type": "integer"
+    },
+    "fake-price": {
+      "default": "",
+      "type": "integer"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "settings": {
+        "client": "mongo",
+        "host": "ds117866.mlab.com",
+        "port": "17866",
+        "database": "store-cms",
+        "username": "duynhat",
+        "password": "duynhat2019"
+      },
+      "options": {
+        "authenticationDatabase": "store-cms"
+      },
+      "connector": "strapi-hook-mongoose"
+    }
+  }
+}

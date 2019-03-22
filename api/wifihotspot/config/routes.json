@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wifihotspots",
+      "handler": "Wifihotspot.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wifihotspots/count",
+      "handler": "Wifihotspot.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wifihotspots/:_id",
+      "handler": "Wifihotspot.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wifihotspots",
+      "handler": "Wifihotspot.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wifihotspots/:_id",
+      "handler": "Wifihotspot.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wifihotspots/:_id",
+      "handler": "Wifihotspot.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

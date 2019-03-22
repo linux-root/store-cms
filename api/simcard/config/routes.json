@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/simcards",
+      "handler": "Simcard.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/simcards/count",
+      "handler": "Simcard.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/simcards/:_id",
+      "handler": "Simcard.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/simcards",
+      "handler": "Simcard.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/simcards/:_id",
+      "handler": "Simcard.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/simcards/:_id",
+      "handler": "Simcard.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
