@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "simcard",
   "info": {
     "name": "simcard",
     "description": ""
@@ -26,7 +26,7 @@
       "type": "integer"
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
